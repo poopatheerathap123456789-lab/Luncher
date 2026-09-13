@@ -47,6 +47,3 @@
     ]
   }
 }
-```[cite: 1, 2]
-
-หลังจากบันทึกไฟล์บน GitHub เรียบร้อยแล้ว ให้กลับไปที่แดชบอร์ด Render แล้วกด **Manual Deploy > Clear cache and deploy** อีกครั้งครับ
