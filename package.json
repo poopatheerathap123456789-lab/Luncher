@@ -49,4 +49,4 @@
 }
 ```[cite: 1, 2]
 
-นำโค้ดนี้ไปอัปเดตทับในไฟล์ `package.json` บน GitHub[cite: 1, 2] แล้วกด **Manual Deploy > Clear cache and deploy** บน Render อีกครั้งครับ
+หลังจากบันทึกไฟล์บน GitHub เรียบร้อยแล้ว ให้กลับไปที่แดชบอร์ด Render แล้วกด **Manual Deploy > Clear cache and deploy** อีกครั้งครับ
