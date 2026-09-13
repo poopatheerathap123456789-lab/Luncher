@@ -1,0 +1,45 @@
+{
+  "name": "hsh-go-back-obt-1-launcher",
+  "version": "1.0.0",
+  "description": "HSH GOBACK OBT 1 Launcherr",
+  "main": "main.js",
+  "author": "Light In The Night Studio",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7",
+    "megajs": "^1.3.10",
+    "node-forge": "^1.3.1"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.litn.hsholauncher",
+    "productName": "HSH GOBACK OBT 1 Launcher",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico",
+      "requestedExecutionLevel": "requireAdministrator",
+      "cscLink": null,
+      "verifyUpdateCodeSignature": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "HSH GOBACK OBT 1 Launcher"
+    },
+    "asar": true,
+    "asarUnpack": [
+      "server.js"
+    ]
+  }
+}
